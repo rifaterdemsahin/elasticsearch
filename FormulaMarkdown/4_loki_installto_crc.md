@@ -108,6 +108,21 @@ helm repo add grafana https://grafana.github.io/helm-charts
 helm repo update
 ```
 
+```
+PS C:\Users\Pexabo> helm repo add grafana https://grafana.github.io/helm-charts
+"grafana" already exists with the same configuration, skipping
+PS C:\Users\Pexabo> helm repo update
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "argo" chart repository
+...Successfully got an update from the "grafana" chart repository
+...Successfully got an update from the "rancher-latest" chart repository
+...Successfully got an update from the "bitnami" chart repository
+Update Complete. ⎈Happy Helming!⎈
+PS C:\Users\Pexabo>
+```
+
+
+
 ### 3. Install Loki
 
 Install Loki using Helm:
